@@ -8,7 +8,6 @@
  
     background: rgba(255,255,255,0.6);
 }
- 
 ol {
     list-style: none;
 }
@@ -24,18 +23,18 @@ ol {
     justify-content: space-between;
 }
 .板块名称 {
-    font-size: 18px;
+	font-size: 22px;
     text-align: center;
 }
 .版主 {
-    font-size: 10px;
+    font-size: 12px;
     text-align: right;
 }
 .板块说明 {
     padding: 10px;
     text-indent: 2em;
  
-    font-size: 13px;
+    font-size: 18px;
 }
 .查看详情 {
     display: block;
@@ -64,4 +63,14 @@ ol {
 }
 .数量 {
     margin: 0px 10px 0 0;
+}
+.小标题{
+	font-size: 20px;
+}
+.图片{
+	overflow: clip;
+}
+.署名{
+	font-size: 16px;
+	text-align: center;
 }
