@@ -1,7 +1,7 @@
 .板块列表{
     height: 100%;
     min-height: 500px;
-    overflow: hidden;
+    overflow: clip;
     width: calc(100% - 190px - 5px);
  
     padding: 15px;
@@ -73,4 +73,12 @@ ol {
 .署名{
 	font-size: 16px;
 	text-align: center;
+}
+.发帖{
+	width: 100%;
+	height: 10px;
+	
+	position: absolute;
+	bottom: 30px;
+	left: 350px;
 }
