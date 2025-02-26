@@ -3,24 +3,32 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-
 body{
-	height: 100%;
-	background-image: url(../img/背景图.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	
-	font-size: 16px;
+    background-image: url('../img/背景图.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-@media (max-width: 600px) {
+
+@media (max-width: 768px) {
 	body{
 		font-size: 14px;
 	}
 }
-@media (max-width: 768px) {
-	body{
-		fontsize: 18px;
+@media (min-device-width: 768px){
+	body {
+		font-size: 18px;
 	}
+}
+@media (max-width: 480px) {
+	body{
+		font-size: 12px;
+	}
+}
+img {
+	width: 100%;
+	height: auto;
 }
 . 导航栏 {
 	width: 100%;
