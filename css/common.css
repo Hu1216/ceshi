@@ -25,3 +25,14 @@
 	border-radius: 50%;
 	overflow: hidden;
 }
+@media screen and (max-width:480){
+	.个人中心{
+		display: none;
+	}
+	.img{
+		display: none;
+	}
+	.主体{
+		display: none;
+	}
+}

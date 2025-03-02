@@ -1,72 +1,68 @@
 <!DOCTYPE html>
-<html clss="h-full">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>校园论坛主页</title>
-	<link rel="stylesheet" href="css/navigation.css">
-	<link rel="stylesheet" href="css/common.css">
-	<link rel="stylesheet" href="css/list.css">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
-	<script src="js/lian.js"></script>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="css/logon.css">
 </head>
 <body>
-	<div class="导航栏">
-		<div class="left-logo">
-			<p>主页</p>
-		</div>
-	
-		<div class="占位"></div>
-	
-		<div class="right-function">
-			<a href="index.html">主页</a>
-			<a href="editor.html" target="_blank">写帖子</a>
-			<a href="logon.html" target="_blank">注册</a>
-			<a href="zhuxiao.html" target="_blank">注销</a>
-		</div>
-	</div>
-
-	<div class="主体">
-		<div class="个人中心">
-			<div class="头像">
-				<img src="img/头像.jpg" alt="" width="120">
-			</div>
-			<p>Hu嗨害嗨</p>
-			<div>男</div>
-			<div>学生</div>
+ 
+    <div class="导航栏">
+        <div class="left-logo">
+            <p>信息注册</p>
+        </div>
+        <div class="占位"></div>
+		
+		<div class="导航栏">
+		 
+		    <div class="占位"></div>
+		 
+		    <div class="单独主页">
+		        <a href="zhuye.html">主页</a>
+		    </div>
 		</div>
 		
-		<div class="板块列表">
-			<ol>
-				<li>
-					<div class="板块信息">
-						<h3 class="板块名称">第四届美育节展演</h3>
-						<p>2024-12-31</p>
-						
-						<div class="版主">来源:<span class="板块名称">永宁街中学科研处</span></div>
-						<p class="板块说明">兴于诗，立于礼，成于乐。在追求卓越的道路上，永宁街中学始终秉持着育人为本、全面发展的教育理念。为了展示社团魅力，彰显学生风采，12月31日中午，校长李清创，副校长刘苋、张留星、黄菊芳，工会主席武峥与全体师生齐聚学校操场，共同见证了第四届美育节暨社团活动成果展的盛况。</p>
-						
-						<div class="查看详情">
-							<a href="detail.html" target="_blank">查看详情>></a>
-						</div>
-					</div>
-						
-					<div class="板块信息">
-						<h3 class="板块名称">秋季田径运动会</h3>
-						<p>2024-11-17</p>
-						
-						<div class="版主">来源:<span class="板块名称">永宁街中学教务处</span></div>
-						<p class="板块说明">为推动学校体育事业的蓬勃发展，进一步增强学生的体质，丰富学生的校园文化生活，11月14日-15日，永宁街中学举行了第四届秋季田径运动会。</p>
-						
-						<div class="查看详情">
-							<a href="yundonghui.html" target="_blank">查看详情>></a>
-						</div>
-						
-					</div>
-				</li>
-			</ol>
-		</div>
-	</div>
-
-	
+        </div>
+    </div>
+    <div class="主体区">
+        <div class="注册框">
+            <form action="">
+                <h2>注册</h2>
+                <div>
+                    <span>昵称</span>
+                    <input type="text" class="text" placeholder="请输入昵称">
+                </div>
+                <div>
+                    <span>年龄</span>
+                    <input type="text" class="text" placeholder="请输入年龄">
+                </div>
+                <div>
+                    <span class="sex">性别</span>
+                    <input type="radio" name="sex">男
+                    <input type="radio" name="sex">女
+                </div>
+                <div>
+                    <span>Email</span>
+                    <input type="text" class="text" placeholder="请输入Email">
+                </div>
+                <div>
+                    <span>密码</span>
+                    <input type="password" class="text" placeholder="请输入密码">
+                </div>
+                <div>
+                    <span>再次确认密码</span>
+                    <input type="password" class="text" placeholder="请再次确认密码">
+                </div>
+                <div>
+                    <input type="button" class="提交" value="注册" onclick='window.open(url="zhuye.html")'>
+                </div>
+				<div>
+					<input type="button" class="提交" value="登录" onclick='window.open(url="login.html")'>
+				</div>
+            </form>
+        </div>
+    </div>
+ 
 </body>
 </html>

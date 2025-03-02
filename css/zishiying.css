@@ -1,0 +1,22 @@
+body{
+	background-image: url('背景图地址');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+@media (max-width: 768px) {
+	body{
+		font-size: 14px;
+	}
+}
+@media (min-device-width: 768px){
+	body {
+		font-size: 18px;
+	}
+}
+@media (max-width: 480px) {
+	body{
+		font-size: 12px;
+	}
+}
